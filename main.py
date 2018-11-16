@@ -29,6 +29,12 @@ while True:
         except ValueError:
             guess = None
             print("Please guess a number in the appropriate range.")
+            guess = +=2
+            if hint == true:
+                return:
+                    print("Guess too high")
+                elif:
+                    print("Guess too low")
 
         if guess == secret:
             level += 1
@@ -39,6 +45,11 @@ while True:
         else:
             print("Nope, lose a life!")
             lives -= 1
+            if hint == true:
+                return:
+                    print("Guess too high")
+                elif:
+                    print("Guess too low")
 
     print("GAME OVER\n")
     again = input("Play again? [Y]/n:").lower()
